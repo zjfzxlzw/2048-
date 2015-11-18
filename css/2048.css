@@ -1,0 +1,49 @@
+header h1{
+	margin: 0 auto;
+	text-align: center;
+	font-size:25px;
+}
+header #newgamebt{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background: #aaa;
+	border-radius: 10px;
+}
+header #newgamebt:hover{
+	background: #ccc;
+}
+header p{
+	text-align: center;
+}
+#grid-container{
+	position: relative;
+	margin: 20px;
+	margin: 0 auto;
+	width: 460px;
+	height: 460px;
+	padding: 20px;
+	border: 1px solid;
+	border-radius: 10px;
+	background: #bcb9b9;
+}
+.grid-cell{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	background: #d4d3d3;
+	border-radius: 6px;
+
+}
+.number-cell{
+	position: absolute;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 6px;
+}
